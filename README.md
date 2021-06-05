@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<Html>  
+<head>   
+<title>  
+Welcome Page  
+</title>  
+<h2>Welcome To My Page</h2>
+</head>  
+<body bgcolor="Lightskyblue" align="center" >  
+<br>  
+<br>  
+<div id="demo"></div><fieldset>
+<form action="form.php" style="border-radius: 10px"  method="POST">  
+	<table align="center">
+<label> Name: </label>         
+<input type="text" id="name" name="name" /> <br> <br>  
 
-You can use the [editor on GitHub](https://github.com/rohittrivedi672/rohit/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+  
+<label>  Date Of Birth:</label> 
+<input type="text" id="date" ></input>
+  
+<br>  <br>
+<label>   
+Gender :  
+</label> 
+<input type="radio" value="male" name="gen"/> Male 
+<input type="radio" value="female" name="gen"/> Female 
+<input type="radio" value="other" name="gen"/> Other  
+<br>  
+  <br>
+<label>   
+Contact :  
+</label>     
+<input type="phone" size="10" id="contact" /> <br> <br>
+Username: 
+<input type="text" id="username" />
+<br>   <br>
+Email:  
+<input type="text" id="email" name="email" /> <br>    
+<br>   
+Password:  
+<input type="Password" id="pwd" name="pwd"> <br>   
+<br>      
+Repeat Password:  
+<input type="Password" id="rpwd" name="rpwd"> <br>   
+<br> 
+<input type="button" value="Submit" onclick="submit()" /><br><br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rohittrivedi672/rohit/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<label><p>Are you a user?</p><a href="abc.html"></a></label>
+</table> 
+</form>
+ </fieldset>
+</body>  
+</html>  
